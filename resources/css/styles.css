@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    color: #505962;
+}
+
+
+/* navigation */
+
+.navbar{
+    font-weight: 400;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+
+.navbar-dark .navbar-nav .dropdown-item.active,
+.navbar-dark .navbar-nav .dropdown-item:hover{
+    color: #1ebba3;
+}
+
+/* Landing page */
+
+
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    font-size: 250%;
+    margin-top: -220px;
+}
+
+h3{
+    font-size: 150%;
+}
+
+
+
+.btn-lg {
+    background-color: #ff4040;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.picture-title{
+    color: rgb(248, 239, 206);
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-100%);
+    transition: all .5s;
+}
+
+.About-picture:hover img,
+.About-picture:hover img{
+    filter: brightness(60%) blur(1px);
+}
+
+.About-picture:hover .picture-title,
+.About-picture:active .picture-title{
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+
+.feedback-section{
+    background-color: #f0efefde;
+}
+
+
+
+/* footer */
+
+.top-footer{
+    background-color: #373f50 !important;;
+    color: white;
+}
+.top-footer li{
+    list-style: none;
+}
+
+.top-footer li a{
+    color: white;
+}
+
+.bot-footer{
+    background-color: #2b3445 !important;
+}
+
+.p-footer{
+    color: white;
+    text-align: center;
+}
+.footer-section{
+    background-color: #2c3e50;
+    color: white;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.p-newsletter,h6{
+    color: white;
+}
+
+.social-icon{
+    margin-top: 10px;
+}
+.social-icon a{
+    margin-left: 20px;
+}
