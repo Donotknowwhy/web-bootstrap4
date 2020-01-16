@@ -96,7 +96,7 @@ h1{
 
 
 .feedback-section{
-    background-color: #f0efefde;
+    background-color: #eceaeade;
 }
 
 
@@ -139,4 +139,8 @@ h1{
 }
 .social-icon a{
     margin-left: 20px;
+}
+
+.social-icon a:hover{
+    color: #c4d1de;
 }
