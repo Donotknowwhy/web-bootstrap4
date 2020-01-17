@@ -33,6 +33,10 @@ body{
     color: white;
 }
 
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
 .navbar-dark .navbar-nav .nav-link{
     color: white;
 }
