@@ -57,13 +57,14 @@ body{
 .caption{
     width: 100%;
     max-width: 100%;
-    color: white;
+    color: black;
     font-size: 220%;
     margin-top: -250px;
 }
 
 
 h3{
+    color: black;
     font-size: 150%;
 }
 
@@ -166,4 +167,17 @@ h6{
     color: #c4d1de;
 }
 
-.text-input{}
+/* User-account CSS */
+
+.page-title-overlap{
+    padding-bottom: 10rem;
+}
+
+.pt-4{
+    padding-top: 2rem !important;
+}
+
+.bg-white{
+    background-color: #373f50 !important;
+}
+

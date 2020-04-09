@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="fixed/fixed.css">
+
+    <title>Website using Bootstrap 4</title>
+  </head>
+  <body>
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="resources/img/rikilogo.png" width="130px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#home" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Home
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#Product-section">Fashion store v1.</a>
+                          <a class="dropdown-item" href="#">Fashion store v2.</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#account" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="User-account.html">Shop User Account</a>
+                          <a class="dropdown-item" href="#">Sign In/Sign Up</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#pages" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">About Us</a>
+                          <a class="dropdown-item" href="#">Contacts</a>
+                          <a class="dropdown-item" href="#">Helps</a>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+          <div class="page-title-overlap bg-dark pt-4">
+            <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+              <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-star">
+                    <li class="breadcrumb-item"><a class="text-nowrap" href="index.html"><i class="czi-home"></i>Home</a></li>
+                    <li class="breadcrumb-item text-nowrap"><a href="#">Account</a>
+                    </li>
+                    <li class="breadcrumb-item text-nowrap active" aria-current="page">Orders history</li>
+                  </ol>
+                </nav>
+              </div>
+              <div class="order-lg-1 pr-lg-4 text-center text-lg-left">
+                <h1 class="h3 text-light mb-0">My orders</h1>
+              </div>
+            </div>
+          </div>
+          <div class="cz-sidebar-static rounded-lg box-shadow-lg px-0 pb-0 mb-5 mb-lg-0">
+            <div class="px-4 mb-4">
+              <div class="media align-items-center">
+                <div class="img-thumbnail rounded-circle position-relative" style="width: 6.375rem;"><span class="badge badge-warning cc_cursor" data-toggle="tooltip" title="" data-original-title="Reward points">384</span><img class="rounded-circle" src="img/shop/account/avatar.jpg" alt="Susan Gardner"></div>
+                <div class="media-body pl-3">
+                  <h3 class="font-size-base mb-0">Susan Gardner</h3><span class="text-accent font-size-sm">s.gardner@example.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="bg-secondary px-4 py-3">
+              <h3 class="font-size-sm mb-0 text-muted">Dashboard</h3>
+            </div>
+            <ul class="list-unstyled mb-0">
+              <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3 active" href="account-orders.html"><i class="czi-bag opacity-60 mr-2"></i>Orders<span class="font-size-sm text-muted ml-auto">1</span></a></li>
+              <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-wishlist.html"><i class="czi-heart opacity-60 mr-2"></i>Wishlist<span class="font-size-sm text-muted ml-auto">3</span></a></li>
+              <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-tickets.html"><i class="czi-help opacity-60 mr-2"></i>Support tickets<span class="font-size-sm text-muted ml-auto">1</span></a></li>
+            </ul>
+            <div class="bg-secondary px-4 py-3">
+              <h3 class="font-size-sm mb-0 text-muted">Account settings</h3>
+            </div>
+            <ul class="list-unstyled mb-0">
+              <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-profile.html"><i class="czi-user opacity-60 mr-2"></i>Profile info</a></li>
+              <li class="border-bottom mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-address.html"><i class="czi-location opacity-60 mr-2"></i>Addresses</a></li>
+              <li class="mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-payment.html"><i class="czi-card opacity-60 mr-2"></i>Payment methods</a></li>
+              <li class="d-lg-none border-top mb-0"><a class="nav-link-style d-flex align-items-center px-4 py-3" href="account-signin.html"><i class="czi-sign-out opacity-60 mr-2"></i>Sign out</a></li>
+            </ul>
+          </div>
+                    
+        </main>
+    </header>
+
+    
+  </body>
+</html>
